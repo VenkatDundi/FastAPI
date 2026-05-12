@@ -7,6 +7,8 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+*.pkl
+*.joblib
 .Python
 build/
 develop-eggs/

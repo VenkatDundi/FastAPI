@@ -23,8 +23,9 @@ class LoanApplication(BaseModel):
         return self
 
 class LoanResponse(BaseModel):
-    
     applicant_name: str
-    loan_amount: float
-    status: str
-    message: str
+    loan_amount:    float
+    decision:       str
+    approved:       bool
+    confidence:     float
+    message:        str
